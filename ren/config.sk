@@ -1,0 +1,19 @@
+commands: [
+    ["surf", "srf metager.org", "S"],
+    ["thor", "thorium",         "T"],
+    ["file", "pcmanfm",         "F"],
+    ["edit", "kitty nvim",      "E"],
+    ["htop", "kitty htop",      "H"],
+]
+
+font-size: 24
+font-path: "/home/ren/.local/share/fonts/Unknown Vendor/TrueType/Fira Mono/Fira_Mono_Regular.ttf"
+
+exit-on-key: 1
+window-width: 480
+spacing: 6
+
+background-color:  "#222436"
+text-color:        "#c8d3f5"
+command-color:     "#444a73"
+key-color:         "#82aaff"
