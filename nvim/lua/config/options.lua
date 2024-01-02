@@ -1,8 +1,8 @@
 vim.opt.number = true
+vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.expandtab = true
+vim.opt.expandtab = false
 vim.opt.autoindent = true
 vim.opt.smarttab = true
 vim.opt.showmatch = true
