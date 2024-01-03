@@ -13,7 +13,7 @@ exit-on-key: 1
 window-width: 480
 spacing: 6
 
-background-color:  "#222436"
-text-color:        "#c8d3f5"
-command-color:     "#444a73"
-key-color:         "#82aaff"
+background-color:  "#1E1E2E"
+text-color:        "#BAC2DE"
+command-color:     "#585B70"
+key-color:         "#F38BA8"

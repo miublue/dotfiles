@@ -1,9 +1,10 @@
 return {
     {
         "catppuccin/nvim",
+		name = "catppuccin",
         init = function()
-			vim.g.catppuccin_flavour = "mocha"
 			require("catppuccin").setup({
+				flavour = "mocha",
 				transparent_background = true,
 				term_colors = false,
 			})
