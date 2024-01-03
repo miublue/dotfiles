@@ -1,14 +1,13 @@
 return {
     {
-        "folke/tokyonight.nvim",
-        opts = {
-            style = "moon",
-            light_style = "moon",
-            transparent = true,
-            terminal_colors = true,
-        },
+        "catppuccin/nvim",
         init = function()
-            vim.cmd.colorscheme("tokyonight")
+			vim.g.catppuccin_flavour = "mocha"
+			require("catppuccin").setup({
+				transparent_background = true,
+				term_colors = false,
+			})
+            vim.cmd.colorscheme("catppuccin")
         end,
     },
     {
@@ -36,7 +35,7 @@ return {
         dependencies = "nvim-tree/nvim-web-devicons",
         opts = {
             options = {
-                theme = "tokyonight",
+                theme = "catppuccin-mocha",
                 globalstatus = true,
             },
             sections = {
@@ -69,7 +68,7 @@ return {
         "utilyre/barbecue.nvim",
         name = "barbecue",
         version = "*",
-        theme = "tokyonight",
+        theme = "catppuccin-mocha",
         dependencies = {
             "SmiteshP/nvim-navic",
             "nvim-tree/nvim-web-devicons",
