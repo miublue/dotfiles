@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+PROG=$(cat ~/.dmenu_progs | dmenu -c -l 12 -fn "monospace:14" -h 24 -p "Open: ")
+[[ ! -z $PROG ]] && $PROG
